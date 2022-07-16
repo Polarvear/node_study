@@ -14,7 +14,7 @@ async function getUser() {
             edit.addEventListener('click', async () => {
                 const name = prompt('바꿀 이름을 입력하세요.');
                 if (!name) {
-                return alert('이름을 반드시 입력해야합니다');
+                return alert('이름을 반드시 입력해야합니다.');
                 }
                  try {
                     await axios.put('/user/' + key, {name});

@@ -44,7 +44,7 @@ async function getUser() {
     }
 }
 
-window.onload = getUser; // 화면 로딩 시 getter 호출
+window.onload = getUser; // 화면 로딩 시 getter 호출.
 // 폼 제출(submit) 시 실행
 document.getElementById('form').addEventListener('submit', async (e) => {
     e.preventDefault();

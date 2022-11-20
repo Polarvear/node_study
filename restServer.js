@@ -24,7 +24,7 @@ http
         }
       }
       res.writeHead(404);
-      return res.end("404 NOT FOUND ERROR");
+      return res.end("404 ERROR");
     } catch (err) {
       console.error(err);
       res.writeHead(500, { "Content-type": "text/plain; charset=utf-8" });

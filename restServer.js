@@ -20,7 +20,7 @@ http
           const data = await fs.readFile(`.${req.url}`);
           return res.end(data);
         } catch (err) {
-          //주소에 해당하는 라우트를 못찾았다는 404 에러 발생/
+          //주소에 해당하는 라우트를 못찾았다는 404 에러 발생
         }
       }
       res.writeHead(404);
